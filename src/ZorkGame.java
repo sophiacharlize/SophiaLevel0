@@ -43,6 +43,7 @@ public class ZorkGame {
 		}
 		if (house.equals("go west")) {
 			System.out.println("you get eaten by a snake and die");
+			System.exit(1);
 		}
 		System.out.println("there are two clear drinks on the table, and you are very thirsty. Do you choose to drink the one on the right or the left?");
 		String drink = kb.nextLine();
